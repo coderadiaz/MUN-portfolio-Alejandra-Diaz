@@ -1,0 +1,38 @@
+:root {
+  --branding-color: #8c0909;
+  --secondary-color: #ffcfcf;
+}
+h1 {
+  color: var(--branding-color);
+  font-size: 96px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.btn-danger {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
