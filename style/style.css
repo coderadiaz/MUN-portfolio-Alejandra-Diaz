@@ -2,13 +2,19 @@
   --branding-color: #8c0909;
   --secondary-color: #ffcfcf;
 }
+
 h1 {
   color: var(--branding-color);
   font-size: 96px;
 }
+h2 {
+  font-size: 64px;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -35,4 +41,20 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
